@@ -39,16 +39,113 @@ The central unit for examining mortgage applications. This unit has the final sa
 
 Jane mentions that the root cause of the delay in decision-making is the amount of information about the borrower that needs to be examined in order to approve or refuse a mortgage:
 
-Professional situation (socio-professional category, employment status, regularity of income, and amount).
+1) Professional situation (socio-professional category, employment status, regularity of income, and amount).
 
-Family circumstances (age, number of dependent children).
+2) Family circumstances (age, number of dependent children).
 
-Down payment amount.
+3) Down payment amount.
 
-Debt currently held.
+4) Debt currently held.
 
-Savings capacity (cost of living).
+5) Savings capacity (cost of living).
 
+# Apply Best Practices to Set Your Project Scope
+Best Practice No. 1: Meet the End Users
+Best Practice No. 2: Meet With Stakeholders
+Best Practice No. 3: Create User Stories
+Best Practice No. 4: Use examples to Help the Group Visualize
+Best Practice No. 5: Prototype the Solution With a Wireframe
+Best Practice No. 6: Organize Regular Progress Reports
 
+# Pie Chart, Stacked Column Chart
 
+The distribution of mortgage applications by year.
+AND 
 
+The distribution of the loan amount between those approved or rejected.
+
+# What, Why, How
+What: What data does your user want to visualize? 
+
+Different types of visualizations work better for different types of data.
+
+Why: Why does your user want to visualize this data? 
+
+This question has a real impact on the visualization you’ll choose and the interaction that you should set up. Does your user want to identify a trend? Correlation between variables? Are they looking for a particular value?
+
+How: Finally, ask yourself how you should present the data to your user. 
+
+Do they want to see sorted or filtered data?
+
+Do they want to see all data points, or do they want the information combined into groups of values? 
+
+# Pros and Cons of Each Visualization 
+Pie Charts
+✅ Easy to use for representing a whole as the sum of its elements.
+
+⚠️️ Hard for the eye to compare the size of the different slices of the pie. 
+
+⚠️️ If divided into more than four parts, they become impossible to read. 
+
+Line Charts
+✅ Practical for showing how a numerical variable has changed. 
+
+⚠️️ When too many lines are involved, you risk the “spaghetti effect”.
+
+Column Charts
+✅ The most effective graph for representing numerical values by category. 
+
+⚠️ Data is often grouped together, which may impact the way your end user interprets it. 
+
+⚠️️ If the data is not sorted, these can be hard to read. 
+
+Treemaps
+✅ The best use of space for presenting lots of information at the same time. 
+
+⚠️️ If there is no variance in the data, these are not much use. 
+
+Maps
+✅ These let end users picture their environment. 
+
+⚠️️ Illegible if there are too many bubbles. 
+
+⚠️️ Maps are often colored in (to show sea, continents, etc.), so take care with managing your colors. 
+
+# Transform Data Using Power Query Editor
+Identify Anomalies
+Correct Anomalies Before Importing
+Save With M
+
+# Connect Tables for Cross-Tab Analysis
+Connect Your Data Tables
+Understand the Star Schema
+
+Fact tables store observations or events, which could be sales orders, stock balances, exchange rates, temperatures, etc.
+
+Dimension tables describe business entities – the things you model. Entities can include products, people, places, and concepts including time itself. 
+
+# Combine Queries Instead of Connecting Data Tables
+Scenario 1: You Have Several Event Tables
+Scenario 2: You’re Lacking Dimensions on Your Event Table 
+Create Different Roles to Manage Data Confidentiality 
+
+# Create New Information From Existing Data
+Use DAX Formulas
+Create a Measure
+
+# The Pros and Cons of Data-Creation Methods
+Using Measures
+✅ For visualizing a value based on interactions with your dashboard. 
+
+✅ Quick measures are simple to use.
+
+✅ No need to store new data. 
+
+⚠️ ️ The calculation happens in real time and can be slow (if complex and drawing on lots of data). 
+
+Using Calculated Columns
+✅ For visualizing different values independent of the active selection. 
+
+✅ For reusing values as fields in a visualization. 
+
+⚠️ ️ Can require large volumes of data storage: if you have a 100,000-line table, a single column can take up lots of room. 
