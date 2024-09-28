@@ -50,12 +50,19 @@ Jane mentions that the root cause of the delay in decision-making is the amount 
 5) Savings capacity (cost of living).
 
 # Apply Best Practices to Set Your Project Scope
+
 Best Practice No. 1: Meet the End Users
+
 Best Practice No. 2: Meet With Stakeholders
+
 Best Practice No. 3: Create User Stories
+
 Best Practice No. 4: Use examples to Help the Group Visualize
+
 Best Practice No. 5: Prototype the Solution With a Wireframe
+
 Best Practice No. 6: Organize Regular Progress Reports
+
 
 # Pie Chart, Stacked Column Chart
 
@@ -81,6 +88,7 @@ Do they want to see all data points, or do they want the information combined in
 
 # Pros and Cons of Each Visualization 
 Pie Charts
+
 ✅ Easy to use for representing a whole as the sum of its elements.
 
 ⚠️️ Hard for the eye to compare the size of the different slices of the pie. 
@@ -88,11 +96,13 @@ Pie Charts
 ⚠️️ If divided into more than four parts, they become impossible to read. 
 
 Line Charts
+
 ✅ Practical for showing how a numerical variable has changed. 
 
 ⚠️️ When too many lines are involved, you risk the “spaghetti effect”.
 
 Column Charts
+
 ✅ The most effective graph for representing numerical values by category. 
 
 ⚠️ Data is often grouped together, which may impact the way your end user interprets it. 
@@ -100,11 +110,13 @@ Column Charts
 ⚠️️ If the data is not sorted, these can be hard to read. 
 
 Treemaps
+
 ✅ The best use of space for presenting lots of information at the same time. 
 
 ⚠️️ If there is no variance in the data, these are not much use. 
 
 Maps
+
 ✅ These let end users picture their environment. 
 
 ⚠️️ Illegible if there are too many bubbles. 
@@ -135,6 +147,7 @@ Create a Measure
 
 # The Pros and Cons of Data-Creation Methods
 Using Measures
+
 ✅ For visualizing a value based on interactions with your dashboard. 
 
 ✅ Quick measures are simple to use.
@@ -144,6 +157,7 @@ Using Measures
 ⚠️ ️ The calculation happens in real time and can be slow (if complex and drawing on lots of data). 
 
 Using Calculated Columns
+
 ✅ For visualizing different values independent of the active selection. 
 
 ✅ For reusing values as fields in a visualization. 
